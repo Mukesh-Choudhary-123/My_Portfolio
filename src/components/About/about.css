@@ -1,0 +1,92 @@
+#about {
+  min-width: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 4rem auto;
+  overflow: hidden;
+  margin-bottom: 5rem;
+}
+.aboutTitle {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.me {
+  color: yellow;
+}
+
+.aboutInfo {
+  /* display: flex; */
+  margin-top: 1rem;
+}
+.aboutDesc {
+  padding: 1rem;
+  padding-top: 2rem;
+  max-width: 48rem;
+}
+.para {
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+.cse {
+  color: yellow;
+}
+.Img {
+  display: flex;
+}
+.aboutName {
+  text-align: center;
+  display: flex;
+}
+.myImg {
+  /* margin-top: -3rem; */
+  height: 41rem;
+  position: absolute;
+  right: 55px;
+  margin-top: -28rem;
+}
+.myname {
+  font-weight: bold;
+  font-size: 1.4rem;
+
+  border-bottom: 0.2rem solid yellow;
+}
+@media (max-width: 340px) {
+  #about {
+    margin-bottom: 5rem;
+  }
+  .aboutTitle {
+    margin-top: 0rem;
+  }
+  .para {
+    letter-spacing: 0.5px;
+  }
+  .fourLine {
+    display: none;
+  }
+}
+@media (max-width: 376px) {
+  #about {
+    margin-top: 1rem;
+  }
+  .aboutTitle {
+    margin-top: 0rem;
+    font-size: 2rem;
+  }
+  .fourLine {
+    display: none;
+  }
+}
+@media (max-width: 425px) {
+  #about {
+    margin-top: 1rem;
+  }
+  .aboutTitle {
+    margin-top: 0rem;
+    font-size: 2rem;
+  }
+  .fourLine {
+    display: none;
+  }
+}

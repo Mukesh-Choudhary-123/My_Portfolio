@@ -1,0 +1,5 @@
+@media (max-width: 342px) {
+  .App {
+    min-width: fit-content;
+  }
+}

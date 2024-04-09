@@ -1,0 +1,268 @@
+#skills {
+  overflow: hidden;
+  min-width: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  text-align: center;
+  margin: 0 auto;
+  height: 88vh;
+}
+.skillTitel {
+  font-size: 3rem;
+  font-weight: 700;
+  padding-top: 1rem;
+
+  overflow: hidden; /* Ensure text doesn't overflow during animation */
+  white-space: nowrap; /* Prevent line breaks */
+  border-right: 2px solid transparent; /* Border that simulates cursor */
+}
+.typing {
+  animation: typing 3s linear infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.my {
+  color: yellow;
+}
+
+.skillDesc {
+  font-size: 0.9rem;
+  font-weight: 400;
+  max-width: 51rem;
+  padding: 0 2rem;
+  margin-top: 1rem;
+}
+
+.skillContainer {
+  display: flex;
+  max-width: 80%;
+  width: 100vw;
+  margin-top: 1rem;
+  flex-direction: row;
+}
+
+.skillBox {
+  margin: 1rem;
+  padding: 1rem;
+  height: 20rem;
+  width: 100vw;
+}
+
+.skillboxHeading {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.devIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  max-width: 65rem;
+  margin: 2rem;
+}
+
+.deviconImg,
+.toolsiconImg,
+.dbiconsImg {
+  height: 5rem;
+  width: 5rem;
+  object-fit: cover;
+  margin: 2rem;
+}
+
+.reduxImg {
+  height: 4.2rem;
+  width: 4.2rem;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.githubImg {
+  object-fit: cover;
+  height: 6rem;
+  width: 6rem;
+}
+
+.animated {
+  animation: shake 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animated2 {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animated3 {
+  animation: flip 1s ease infinite alternate;
+}
+
+@keyframes flip {
+  0% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(-1);
+  }
+}
+
+.animated4 {
+  animation: bounce 1s ease infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+.devIcons img:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.devIcons img:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.devIcons img:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.devIcons img:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.devIcons img:nth-child(5) {
+  animation-delay: 0.8s;
+}
+.devIcons img:nth-child(6) {
+  animation-delay: 0.1s;
+}
+.devIcons img:nth-child(7) {
+  animation-delay: 0.12s;
+}
+.devIcons img:nth-child(8) {
+  animation-delay: 0s;
+}
+.devIcons img:nth-child(9) {
+  animation-delay: 0.2s;
+}
+.devIcons img:nth-child(10) {
+  animation-delay: 0.4s;
+}
+.devIcons img:nth-child(11) {
+  animation-delay: 0.6s;
+}
+.devIcons img:nth-child(12) {
+  animation-delay: 0.8s;
+}
+
+@media (max-width: 340px) {
+  #skills {
+    height: 136vh;
+  }
+  .skillTitel {
+    font-size: 2rem;
+  }
+  .skillDesc {
+    font-weight: 200;
+  }
+  .deviconImg,
+  .toolsiconImg,
+  .dbiconsImg {
+    margin: 1rem;
+  }
+  .devIcons {
+    margin: 2rem;
+    width: auto;
+  }
+}
+
+@media (max-width: 376px) {
+  #skills {
+    height: 110vh;
+    margin-top: 4rem;
+  }
+  .skillTitel {
+    font-size: 2rem;
+  }
+  .skillDesc {
+    font-weight: 200;
+  }
+  .deviconImg,
+  .toolsiconImg,
+  .dbiconsImg {
+    margin: 0.5rem;
+  }
+  .devIcons {
+    margin: 2rem;
+    width: auto;
+  }
+}
+@media (max-width: 425px) {
+  #skills {
+    height: 100vh;
+  }
+  .skillTitel {
+    font-size: 2.2rem;
+  }
+  .skillDesc {
+    font-weight: 200;
+  }
+  .deviconImg,
+  .toolsiconImg,
+  .dbiconsImg {
+    margin: 0.5rem;
+  }
+  .devIcons {
+    margin: 2rem;
+    width: auto;
+  }
+}
+@media (max-width: 768px) {
+  .deviconImg,
+  .toolsiconImg,
+  .dbiconsImg {
+    margin: 1rem;
+  }
+  .devIcons {
+    margin: 2rem;
+    width: auto;
+  }
+}
