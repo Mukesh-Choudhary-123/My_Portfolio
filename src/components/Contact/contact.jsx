@@ -29,7 +29,7 @@ const contact = () => {
       <div className="MsgAnimation">
         <Lottie animationData={MailAnimation} className="Animation" />
       </div>
-      <div>
+      <div className="from">
         <h1 className="contactTitle">
           Contact <span className="me">Me</span>
         </h1>

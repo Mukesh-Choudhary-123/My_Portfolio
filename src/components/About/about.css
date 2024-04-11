@@ -63,19 +63,24 @@
     letter-spacing: 0.5px;
   }
   .fourLine {
-    display: none;
+    /* display: none; */
   }
 }
 @media (max-width: 376px) {
   #about {
     margin-top: 1rem;
+    height: 100vh;
   }
   .aboutTitle {
     margin-top: 0rem;
     font-size: 2rem;
   }
-  .fourLine {
-    display: none;
+
+  .myImg {
+    z-index: -1;
+    width: 42rem;
+    margin-right: -14rem;
+    opacity: 0.6;
   }
 }
 @media (max-width: 425px) {
@@ -87,6 +92,6 @@
     font-size: 2rem;
   }
   .fourLine {
-    display: none;
+    /* display: none; */
   }
 }

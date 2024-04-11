@@ -23,7 +23,6 @@ const skills = () => {
 
   return (
     <section id="skills">
-      {/* <span className="skillTitel"> */}
       <span className={`skillTitel ${isTyping ? "typing" : ""}`}>
         <span className="my">My</span> Skills
       </span>

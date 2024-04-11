@@ -220,7 +220,10 @@
     margin-top: 4rem;
   }
   .skillTitel {
-    font-size: 2rem;
+    padding-bottom: 3rem;
+  }
+  .typing {
+    animation: typing 3s linear infinite;
   }
   .skillDesc {
     font-weight: 200;
@@ -237,7 +240,7 @@
 }
 @media (max-width: 425px) {
   #skills {
-    height: 100vh;
+    height: 115vh;
   }
   .skillTitel {
     font-size: 2.2rem;

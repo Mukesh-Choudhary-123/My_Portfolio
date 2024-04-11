@@ -42,13 +42,6 @@ const about = () => {
           </p>
         </div>
         <Lottie animationData={AnimationDAta} className="myImg" />
-        <div className="aboutName">
-          {/* <div className="Img"> */}
-          {/* <img src={bg} alt="my image" className="myImg" /> */}
-          {/* <Lottie animationData={AnimationDAta} className="myImg" /> */}
-          {/* </div> */}
-        </div>
-        {/* <span className="myname">Mukesh Choudhary</span> */}
       </div>
     </section>
   );
