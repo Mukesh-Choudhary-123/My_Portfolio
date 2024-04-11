@@ -224,3 +224,53 @@
     max-width: none;
   }
 }
+@media (max-width: 768px) {
+  .worksTitle {
+    font-size: 2.2rem;
+    margin-top: 0rem;
+  }
+  .worksDesc {
+    font-weight: 200;
+    max-width: none;
+  }
+  .container {
+    flex-direction: column;
+    overflow-x: auto;
+    width: 100%;
+    gap: 20px;
+    padding: 10px;
+    height: 440px;
+  }
+
+  .container .card {
+    flex: 0 0 auto;
+    width: 280px;
+    margin: 0;
+  }
+  .features {
+    font-size: 0.896rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    overflow-x: auto;
+    width: 100%;
+    gap: 20px;
+    padding: 10px;
+    height: 440px;
+  }
+
+  .container .card {
+    flex: 0 0 auto;
+    width: 280px;
+    margin: 0;
+  }
+  .features {
+    font-size: 0.899rem;
+  }
+  .worksDesc {
+    max-width: 81%;
+  }
+}

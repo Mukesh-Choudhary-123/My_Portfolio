@@ -89,3 +89,20 @@
     opacity: 0.8;
   }
 }
+@media (max-width: 768px) {
+  .MsgAnimation {
+    position: absolute;
+    margin-top: 7rem;
+  }
+  .from {
+    align-items: center;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+  }
+  .name,
+  .msg,
+  .email {
+    opacity: 0.8;
+  }
+}

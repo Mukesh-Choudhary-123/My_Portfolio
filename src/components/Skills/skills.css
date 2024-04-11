@@ -269,3 +269,8 @@
     width: auto;
   }
 }
+@media (max-width: 1024px) {
+  .skillTitel {
+    padding-bottom: 4rem;
+  }
+}
