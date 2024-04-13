@@ -49,7 +49,7 @@ const hero = () => {
           <div className="intoContent">
             <span className="hello">Hello,</span>
             <span className="introText">
-              I'm <span className="introName">Mukesh</span>
+              I'm <span className="introName">Mukesh Choudhary</span>
             </span>
             <span>
               {currentWord} <Cursor cursorStyle="|" cursorColor="yellow" />
