@@ -98,7 +98,7 @@ const works = () => {
             </div>
             <div className="Links">
               <a
-                href="https://github.com/Mukesh-Choudhary-123/Apna_Market/tree/main"
+                href="https://github.com/Mukesh-Choudhary-123/Baat_Karlo"
                 target="absolute"
               >
                 <button className="LinkBtn">
@@ -106,7 +106,10 @@ const works = () => {
                 </button>
               </a>
 
-              <a href="#" target="absolute">
+              <a
+                href="https://baatkarlo-chat-app.vercel.app/login"
+                target="absolute"
+              >
                 <button className="LinkBtn">
                   <LinkIcon />
                 </button>
