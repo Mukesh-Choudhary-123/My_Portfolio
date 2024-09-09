@@ -37,7 +37,7 @@ const footer = () => {
       <div className="allText">
         <div className="text">Copyright &#169; 2024 All right received.</div>
         <div className="text text2">
-          Made with <span className="heartemoji">❤</span> By Mukesh Choudhary
+          Made with <span className="heartemoji">❤</span> By Mukesh Choudhary.
         </div>
       </div>
       <button className="scrollBtn" onClick={handleToScrollTop}>
